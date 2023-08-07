@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #71C9CE;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* CONTAINER */
+.container {
+    background-color: #fff;
+    color: #00ADB5;
+    width: 40%;
+    padding: 80px 50px;
+    border-radius: 20px;
+}
+
+.search-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-container #word-input {
+    font-size: 16px;
+    width: 70%;
+    padding: 10px;
+    outline: none;
+    border: none;
+    border-bottom: 3px solid #71C9CE;
+}
+
+.search-container #search-btn {
+    background-color: #71C9CE;
+    color: #fff;
+    width: 25%;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+
+/* TO DISPLAY */
+.toDisplay {
+    position: relative;
+}
+
+.toDisplay h2 {
+    font-size: 30px;
+    color: #08D9D6;
+}
+
+.toDisplay .word-and-audio {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.word-and-audio button {
+    background: transparent;
+    border: none;
+    color: #00ADB5;
+    outline: none;
+    font-size: 20px;
+}
+
+.toDisplay .type-and-phonetic {
+    display: flex;
+    gap: 15px;
+    color: #c0bebe;
+    font-size: 15px;
+    margin: 5px 0 20px 0;
+}
+
+.toDisplay .meaning {
+    color: #808080;
+}
+
+.toDisplay .example {
+    color: #808080;
+    font-style: italic;
+    border-left: 5px solid #00ADB5;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+
+/* NotFound */
+.not-found {
+    color: #f00;
+    margin-top: 30px;
+    text-align: center;
+}
